@@ -27,6 +27,7 @@ namespace Advanced2
                 right--;
             }
         }
+        #endregion
         #region Q5
         //Given a Queue, implement a function to reverse the elements of a queue using a stack.
         public static void ReverseQueue(Queue<int> queue)
@@ -41,7 +42,6 @@ namespace Advanced2
                 queue.Enqueue(stack.Pop());
             }
         }
-        #endregion
 
         #endregion
 
